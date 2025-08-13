@@ -11,7 +11,7 @@ const port = process.env.PORT || 3001;
 // Update the CORS origin to match your website's port
 app.use(
   cors({
-    origin: "http://localhost:8080", // Corrected URL
+    origin: "https://diwali-ank.mysamvedana.org/", // Corrected URL
   })
 );
 app.use(express.json());
